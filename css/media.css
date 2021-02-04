@@ -1,0 +1,259 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*common start*/
+	.kid1,.kid2, .courses{
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+	/*common ends*/
+	/* header start*/
+
+	.logo{
+		 width: 150px;
+	}
+   .menu ul li a {
+   
+    padding: 2px 12px !important;
+    
+	}
+	.menu ul li a:hover {
+     background-color: transparent;
+     color:  #f05c5c !important;
+	}
+	.d_user_ul {
+    top: 105%;
+    left: 0px;
+}
+
+ 
+	.d_search_ul {
+    top: 121%;
+    left: -24px;
+    min-width: 272px;
+}
+	/*banner start*/
+	.b_content h1 {
+    margin-top: 80px;
+    margin-bottom: 90px;
+    font-size: 33px;
+}
+
+	.scroll p {
+   
+    font-size: 16px;
+    
+}
+   .scroll i {
+    font-size: 20px;
+    
+}
+
+/*kid1 start*/
+.c_h1{
+
+	font-size: 25px;
+	
+}
+.c_content{
+	margin-bottom: 30px;
+}
+.c_border{
+	font-size: 22px;
+}
+.discover{
+	width: 180px;
+}
+.k1_img{
+	
+ 	margin-bottom: 30px;
+
+}
+.k2_single h2{
+	margin-top: 15px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #ffffff;
+}    
+.course_single{
+	padding-bottom: 20px;
+}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header strar*/
+	.menu ul li a {
+   
+    padding: 2px 12px !important;
+    
+	}
+	.menu ul li a:hover {
+     background-color: transparent;
+     color:  #f05c5c !important;
+	}
+	.d_user_ul {
+    top: 105%;
+    left: 0px;
+}
+
+   .d_search_ul {
+    top: 121%;
+    left: -48px;
+    min-width: 280px;
+}
+		/*banner start*/
+	.b_content h1 {
+    margin-top: 100px;
+    margin-bottom: 110px;
+    font-size: 38px;
+}
+   .scroll p {
+   
+    font-size: 15px;
+    
+}
+   .scroll i {
+    font-size: 20px;
+    
+}
+/*kid1 start*/
+.kid1{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.c_h1{
+
+	font-size: 25px;
+	
+}
+.c_border{
+	font-size: 25px;
+}
+.c_content{
+	margin-bottom: 30px;
+}
+ .k1_img{
+ 	margin-bottom: 30px;
+	text-align: center;
+}
+.discover{
+	width: 150px;
+}
+/*kid2 start*/
+.k2_single{
+	margin-bottom: 40px;
+}
+.last-child{
+	margin-bottom: 0px;
+}
+/*kid2 ends*/
+.k2_single h2{
+	margin-top: 15px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #ffffff;
+}    
+.course_single{
+	padding-bottom: 20px;
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/* header start*/
+	.menu ul li a {
+   
+    padding: 2px 12px !important;
+    
+	}
+	.menu ul li a:hover {
+     background-color: transparent;
+     color:  #f05c5c !important;
+	}
+	.d_user_ul {
+    top: 105%;
+    left: 0px;
+}
+
+   .d_search_ul {
+    top: 121%;
+    left: -48px;
+    min-width: 280px;
+}
+		/*banner start*/
+	.b_content h1 {
+    margin-top: 130px;
+    margin-bottom: 140px;
+}
+ /* kid1 start */
+ .k1_img{
+ 	margin-bottom: 30px;
+	text-align: center;
+}
+.discover{
+	width: 200px;
+}
+/*kid2 start*/
+.k2_single{
+	margin-bottom: 50px;
+}
+.last-child{
+	margin-bottom: 0px;
+}
+/*kid2 ends*/
+.k2_single h2{
+	margin-top: 15px;
+	font-size: 22px;
+	font-weight: 700;
+	color: #ffffff;
+}    
+.course_single{
+	padding-bottom: 20px;
+}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*banner start*/
+	.b_content h1 {
+    margin-top: 180px;
+    margin-bottom: 190px;
+}
+.k2_single h2{
+	margin-top: 15px;
+	font-size: 28px;
+	font-weight: 700;
+	color: #ffffff;
+}    
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	/*banner start*/
+	.b_content h1 {
+    margin-top: 240px;
+    margin-bottom: 250px;
+    
+}
+	
+}
+
+/*custom devices (custom devices, 1400px and up)*/
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+	
+	
+
+}
+
+/*custom devices (custom devices, 1600px and up)*/
+@media (min-width: 1600px) and (max-width: 1799.98px) {
+	
+
+	
+
+}
+/*customlarge devices (custom devices, 1800px and up)*/
+@media (min-width: 1800px) {
+	
+}
